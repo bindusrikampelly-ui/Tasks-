@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div>
+            <h1>Hello, I'm <span>Your Name</span></h1>
+
+            <h2>Full Stack Web Developer</h2>
+
+            <p>
+                I am a passionate developer interested in building
+                modern and user-friendly websites.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science student interested in
+            Web Development and Software Development.
+            I enjoy learning new technologies and creating
+            useful projects.
+        </p>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>React</div>
+            <div>Python</div>
+            <div>SQL</div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A responsive personal portfolio website
+                    created using HTML, CSS and JavaScript.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Mini CRM</h3>
+                <p>
+                    A simple client lead management system
+                    for managing customer information.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Business Website</h3>
+                <p>
+                    A professional website designed for
+                    a local business.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Resume -->
+    <section id="resume">
+        <h2>My Resume</h2>
+
+        <p>Download my resume to know more about my education and skills.</p>
+
+        <a href="resume.pdf" class="btn" download>
+            Download Resume
+        </a>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name"
+                   placeholder="Your Name" required>
+
+            <input type="email" id="email"
+                   placeholder="Your Email" required>
+
+            <textarea id="message"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="status"></p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Your Name | All Rights Reserved</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
